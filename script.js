@@ -2,15 +2,7 @@ const password = "warhawk"; // Replace with your chosen password
 const nameInput = document.getElementById("name");
 const message = document.getElementById("message");
 
-const image = document.getElementById("display-image");
-const imageContainer = document.getElementById("image-container");
 
-image.src = "image.jpg";
-
-// Apply CSS styles for aesthetics (you can customize these styles)
-imageContainer.style.textAlign = "center";
-image.style.maxWidth = "100%";
-image.style.height = "auto";
 
 function checkPassword() {
     const guess = document.getElementById("guess").value;
