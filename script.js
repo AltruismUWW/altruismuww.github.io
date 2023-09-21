@@ -1,4 +1,4 @@
-const password = "warhawk"; // Replace with your chosen password
+const password = "james"; // Replace with your chosen password
 const nameInput = document.getElementById("name");
 const message = document.getElementById("message");
 
