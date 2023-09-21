@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Password Guessing Game</title>
+</head>
+<body>
+    <h1>Password Guessing Game</h1>
+    <input type="text" id="guess" placeholder="Enter the password">
+    <button onclick="checkPassword()">Submit</button>
+    <p id="message"></p>
+    <input type="text" id="name" placeholder="Enter your name">
+</body>
+<script src="script.js"></script>
+</html>
